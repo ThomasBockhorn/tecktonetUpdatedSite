@@ -46,12 +46,8 @@ gulp.task("scripts", function () {
 //Images
 gulp.task("images", function () {
   console.log("starting images task");
-  gulp.src("src/img/*")
-    .pipe(imagemin([
-      imagemin.jpegtran({
-        progressive: true
-      })
-    ]))
+  gulp.src("src/pic/**/*.jpg")
+    .pipe(imagemin())
     .pipe(gulp.dest('dest/img'));
 });
 
