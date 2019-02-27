@@ -38,7 +38,7 @@ ul.menu li a {
     display: block;
     padding: 10px 15px;
     position: relative;
-    color: var(--nav-background-color);
+    color: var(--nav-color);
 }
 
 ul.menu li a:before {
@@ -48,7 +48,7 @@ ul.menu li a:before {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-color);
     transform: scaleX(0);
     transition: all 0.5s;
     transform-origin: left;
@@ -65,7 +65,7 @@ ul.menu li a:after {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-color);
     transform: scaleX(0);
     transition: all 0.5s;
     transform-origin: right;
@@ -91,7 +91,7 @@ ul.menu li a:hover:after {
     border-radius: 1px;
     height: 5px;
     width: 35px;
-    background: var(--nav-background-color);
+    background: var(--nav-color);
     position: absolute;
     display: block;
     content: '';
